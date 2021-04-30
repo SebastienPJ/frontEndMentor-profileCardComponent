@@ -1,0 +1,82 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    padding: 5rem;
+    text-align: center;    
+}
+
+
+.profile {    
+    width: 25rem;
+    background-color: hsl(185, 75%, 39%);;
+    padding: 0;
+}
+
+.banner-section {
+    margin-bottom: -2.7rem;
+    background-color: #fff;
+    border-radius: 20px 20px 0 0;
+}
+
+
+.banner-img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;    
+}
+
+
+.profile-image {
+    border-radius: 50%;
+    border: 5px solid #fff;
+    position: relative;
+    z-index: 1;
+    bottom: 3.3rem;
+    background-color: white;
+}
+
+
+.id-section {
+    background-color: #fff;
+    padding: 1rem 1rem 1.5rem;
+}
+
+.id-heading {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+}
+
+.age{
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+
+.location {
+    margin: 0;
+    color: hsl(0, 0%, 59%);
+}
+
+
+.stat-section {
+    margin: auto;
+    background-color: white;
+    border-top: 1px solid hsl(0, 0%, 59%);
+    padding-top: 1.5rem;
+}
+
+
+.stat-description {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    padding-bottom: 1rem;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    margin: auto;
+}
+
+
+
+
+
+
