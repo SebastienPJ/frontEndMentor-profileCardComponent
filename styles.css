@@ -2,7 +2,8 @@ body {
     background-color: hsl(185, 75%, 39%);
     font-family: 'Kumbh Sans', sans-serif;
     text-align: center;  
-    padding-top: 2rem;
+    padding-top: 5rem;
+    height: 100vh;
    
     
 }
@@ -14,8 +15,9 @@ body {
 
 .profile {    
     width: min(90%, 25rem);
-    background-color: #fff;
-    border-radius: 20px 20px 20px 20px;
+    background-color: hsl(185, 75%, 39%);
+    border-radius: 20px 20px 0 0;
+   
 
     padding: 0;
 }
@@ -23,13 +25,13 @@ body {
 .banner-section {
     margin-bottom: -2.7rem;
     background-color: #fff;
-    border-radius: 20px 20px 0 0;
+    border-radius: inherit;
 }
 
 
 .banner-img {
     width: 100%;
-    border-radius: 20px 20px 0 0;   
+    border-radius:inherit;   
 }
 
 
@@ -82,6 +84,7 @@ body {
     background-color: white;
     border-radius: 0 0 20px 20px;
     margin: auto;
+    /* z-index: 1; */
 }
 
 .col-sm-4 {
@@ -91,15 +94,23 @@ body {
 
 
 @media (max-width: 600px) {
+
+
+    body {
+        text-align: center;
+    }
     .profile {
-        width: 315px;
-        height: 350px;
+        max-width: 70vw;
+        /* height: 350px; */
     }
 
     .col-sm-4 {
-        width: 5rem;
-        margin: auto;
+        width: 2rem;
+        margin: 0 auto;
+        font-size: ;
     }
-]
-}
+    *, ::after, ::before {
+        box-sizing: content-box;
+    }
 
+}
