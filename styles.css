@@ -8,23 +8,20 @@ body {
     
 }
 
-
-.background-img-bottom {
-
+.white-background {
+    background-color: white;
 }
+
 
 .profile {    
     width: min(90%, 25rem);
     background-color: hsl(185, 75%, 39%);
     border-radius: 20px 20px 0 0;
-   
-
     padding: 0;
 }
 
 .banner-section {
     margin-bottom: -2.7rem;
-    background-color: #fff;
     border-radius: inherit;
 }
 
@@ -41,13 +38,8 @@ body {
     position: relative;
     z-index: 1;
     bottom: 3.3rem;
-    background-color: white;
 }
 
-
-.id-section {
-    background-color: #fff;
-}
 
 .id-heading {
     font-size: 1.3rem;
@@ -70,7 +62,6 @@ body {
 
 .stat-section {
     margin: auto;
-    background-color: white;
     border-top: 1px solid hsl(0, 0%, 59%);
     padding-top: 1.5rem;
 }
@@ -81,36 +72,51 @@ body {
     font-weight: 400;
     color: hsl(0, 0%, 59%);
     padding-bottom: 1rem;
-    background-color: white;
     border-radius: 0 0 20px 20px;
     margin: auto;
-    /* z-index: 1; */
 }
 
-.col-sm-4 {
+.attribution {
+    margin-top: 1rem;
+    font-size: 11px; 
+    text-align: center;
+}
 
+.attribution a {
+    color: blanchedalmond;
 }
 
 
-
-@media (max-width: 600px) {
+@media (max-width: 570px) {
 
 
     body {
         text-align: center;
     }
+
     .profile {
         max-width: 70vw;
-        /* height: 350px; */
     }
 
-    .col-sm-4 {
+    .id-heading {
+        font-size: 1rem;
+    }
+
+    .stat-description {
+        font-size: .6rem;
+    }
+
+    .location {
+        font-size: .8rem;
+    }
+
+
+    .profile-stats {
         width: 2rem;
         margin: 0 auto;
-        font-size: ;
-    }
-    *, ::after, ::before {
         box-sizing: content-box;
+
     }
+
 
 }
