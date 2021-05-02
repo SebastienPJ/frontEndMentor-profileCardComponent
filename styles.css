@@ -2,9 +2,34 @@ body {
     background-color: hsl(185, 75%, 39%);
     font-family: 'Kumbh Sans', sans-serif;
     padding: 5rem;
-    text-align: center;    
+    text-align: center;  
+    /* background-image: url(images/bg-pattern-top.svg); */
+    /* background-image: url(images/bg-pattern-top.svg); */
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+
+
+     /* background-image: url("images/bg-pattern-bottom.svg"), url("images/bg-pattern-top.svg");
+     background-position: left 48vw top 52vh, right 50vw bottom 35vh;
+     background-repeat: no-repeat, no-repeat;
+     background-color: hsl(185, 75%, 39%);
+     height: 100vh; */
 }
 
+.bgtop {
+    position: absolute;
+    top: 20rem;
+    width: 60rem;
+    transform: rotate(-90deg);
+    z-index: -1;
+    /* overflow: hidden; */
+
+}
+
+.background-img-bottom {
+
+}
 
 .profile {    
     width: 25rem;
@@ -75,8 +100,22 @@ body {
     margin: auto;
 }
 
+.col-sm-4 {
+
+}
 
 
 
+@media (max-width: 600px) {
+    .profile {
+        width: 315px;
+        height: 350px;
+    }
 
+    .col-sm-4 {
+        width: 5rem;
+        margin: auto;
+    }
+]
+}
 
