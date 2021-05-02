@@ -64,7 +64,7 @@ Next projects I will not be using any frameworks.
 ## Author
 
 - Website - [Sebastien Pierre-Jacques](https://www.linkedin.com/in/sebastien-pierre-jacques/)
-- Frontend Mentor - [@ySebastienPJ](https://www.frontendmentor.io/profile/SebastienPJ)
+- Frontend Mentor - [@SebastienPJ](https://www.frontendmentor.io/profile/SebastienPJ)
 - Twitter - [@sebastien_pj](https://twitter.com/sebastien_pj)
 
 
